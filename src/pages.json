@@ -234,7 +234,7 @@
 				"selectedIconPath": "/static/images/tabBar/user-default.png",
 				"text": "我的"
 			}
-		]
+		],
 
 		"midButton": {
 			"width": "120px",

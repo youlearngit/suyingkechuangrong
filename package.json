@@ -1,5 +1,5 @@
 {
-    "name": "mall 商城 vue3+ts 最简单的商城",
+    "name": "苏银科创融",
     "version": "1.0.1",
     "scripts": {
         "dev:app": "uni -p app",
@@ -62,16 +62,16 @@
         "vite": "^2.9.14"
     },
     "id": "mall-suteqa",
-    "displayName": "mall 商城 vue3+ts 最简单的商城",
-    "description": "最简洁的商城基于vue3 + ts 开发",
+    "displayName": "苏银科创融",
+    "description": "基于vue3 + ts 开发",
     "keywords": [
         "mall",
         "vue3"
     ],
     "dcloudext": {
         "category": [
-            "uni-app前端模板",
-            "uni-app前端项目模板"
+            "前端",
+            "前端项目"
         ]
     }
 }
