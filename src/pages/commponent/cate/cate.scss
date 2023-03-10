@@ -1,0 +1,357 @@
+/* 二级分类 */
+.cate .left {
+  width: 24%;
+  height: 93%;
+  background-color: #f8f8f8;
+  position: absolute;
+  left: 0;
+  padding-bottom: 140rpx;
+  z-index: 900;
+}
+.left_h5{
+	top: 90rpx!important;
+}
+.left_app{
+	top: 128rpx!important;
+}
+.left .classTitle {
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  font-size: 24rpx;
+  position: relative;
+  color: #333;
+}
+
+.actives {
+  background-color: #ffffff;
+  font-weight: bold;
+}
+
+.classactive {
+  width: 6rpx;
+  height: 50rpx;
+  position: absolute;
+  left: 15rpx;
+  top: 15rpx;
+  border-radius: 10rpx;
+}
+
+.right {
+  width: 76%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+.right_h5{
+	top: 85rpx!important;
+}
+.right_app{
+	top: 115rpx!important;
+}
+.right .screen {
+  height: 70rpx;
+  line-height: 70rpx;
+  margin-top: -15rpx;
+  position: fixed;
+  width: 75%;
+  right: 0;
+  z-index: 900;
+  border-bottom: 1rpx solid #F9F9F9;
+  background-color: #F9F9F9;
+}
+.screen_h5{
+  top: 88rpx!important;
+}
+.screen_app{
+  top: 124rpx!important;
+}
+.screen .tuijian {
+  font-size: 26rpx;
+  color: #333;
+  font-weight: bold;
+}
+
+.screen .xiaoliang {
+  display: flex;
+  align-items: center;
+  float: right;
+  margin-left: 40rpx;
+}
+
+.xiaoliang .name {
+  font-size: 29rpx;
+  color: #999999;
+  margin-right: 10rpx;
+
+}
+
+.xiaoliang .icon {
+  width: 40rpx;
+  line-height: 15rpx;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  color: #999;
+}
+
+.xiaoliang .icon text {
+  font-size: 22rpx;
+}
+.place{  //占位元素
+	height: 70rpx;
+	width: 75%;
+	background-color: #FFFFFF;
+}
+.goods_list {
+  overflow: hidden;
+  padding-top: 20rpx;
+}
+.goods_list .goods_item {
+  align-items: center;
+  border-bottom: 1rpx solid #eee;
+  padding-bottom: 10rpx;
+  margin-bottom: 15rpx;
+  overflow: hidden;
+}
+
+.goods_item image {
+  width: 126rpx;
+  height: 126rpx;
+  float: left;
+  border-radius: 10rpx;
+  margin-right: 5rpx;
+}
+
+.goods_right {
+  /* float: left; */
+  padding: 0 10rpx;
+  overflow: hidden;
+}
+
+.goods_right .goods_name {
+  font-size: 28rpx;
+  overflow: hidden;
+  font-weight: bold;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  color: #333;
+  min-height: 50rpx;
+}
+.goods_right .numbers{
+  overflow: hidden;
+  margin-top: 5rpx;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  text{
+	  font-size: 22rpx;
+  }
+}
+.goods_right .numbers text{
+  background-color: #FAEFF7;
+  padding: 2rpx 10rpx;
+  box-sizing: border-box;
+  color: $MyColor;
+  border-radius: 10rpx;
+  margin-right: 15rpx;
+}
+.goods_right .price{
+  line-height: 40rpx;
+  font-size: 24rpx;
+  overflow: hidden;
+}
+.price .money{
+  margin-right: 20rpx;
+  font-size: 30rpx;
+  font-weight: 600;
+  color: $MyColor;
+}
+.hx_money{
+  text-decoration: line-through;
+  color: #999;
+  font-size: 22rpx;
+}
+.gouwuche{
+  font-size: 28rpx;
+  float: right;
+  margin-right: 20rpx;
+  color: $MyColor;
+}
+.nodata{
+  color: #ccc;
+  text-align: center;
+  font-size: 24rpx;
+  margin-top: 30rpx;
+  margin-bottom: 100rpx;
+}
+.zanwu{
+  text-align: center;
+  color: #999;
+  height: 40rpx;
+  line-height: 40rpx;
+}
+.zanwu .iconfont{
+  line-height: 50rpx;
+  color: #666;
+}
+.zanwu text{
+  margin-right: 20rpx;
+}
+.mask{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #000;
+  z-index: 900;
+  opacity: 0.7;
+}
+.sku{
+  width: 100vw;
+  min-height: 30vh;
+  position: fixed;
+  bottom: -100%;
+  z-index: 910;
+  left: 0;
+  background-color: #ffffff;
+  padding: 20rpx 4%;
+  border-top-left-radius: 10rpx;
+  border-top-right-radius: 10rpx;
+  border-bottom: 1rpx solid #eee;
+  transition: all 0.3s;
+}
+.shows{
+  bottom: 0;
+  transition: all 0.3s;
+}
+.sku_top{
+  overflow: hidden;
+}
+.sku_top image{
+  height: 170rpx;
+  width: 170rpx;
+  float: left;
+  margin-right: 15rpx;
+  border-radius: 8rpx;
+}
+.sku_top .sku_title{
+  font-size: 24rpx;
+  line-height: 35rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  font-weight: bold;
+}
+.sku_top .moneys{
+  font-size: 28rpx;
+  line-height: 40rpx;
+  overflow: hidden;
+  margin-top: 20rpx;
+  font-weight: bold;
+}
+.sku_top .kucun{
+  font-size: 24rpx;
+  color: #999;
+  overflow: hidden;
+}
+.sku_list{
+  margin-top: 20rpx;
+  overflow: hidden;
+  margin-bottom: 40rpx;
+}
+.sku_name{
+  font-size: 24rpx;
+  color: #666;
+  overflow: hidden;
+}
+.sku_tag{
+  overflow: hidden;
+  margin-top: 20rpx;
+}
+.sku_tag .tag_s{
+  height: 50rpx;
+  line-height: 18rpx;
+  padding: 0 20rpx;
+  text-align: center;
+  font-size: 22rpx;
+  color: #333;
+  background-color: #F5F5F5;
+  border: 1rpx solid rgba(0, 0, 0, .05);
+  float: left;
+  border-radius: 30rpx;
+  margin-right: 20rpx;
+  transition: all 0.2s;
+  margin-bottom: 20rpx;
+}
+.number{
+  margin-top: 10rpx;
+  border-top: 1rpx solid #ccc;
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  padding-top: 10rpx;
+}
+.number .n_left{
+  float: left;
+  font-size: 28rpx;
+  color: #333;
+}
+.number .n_right{
+  float: right;
+  height: 60rpx;
+  width: 200rpx;
+  background-color: #F5F5F5;
+  margin-top: 10rpx;
+  border-radius: 5rpx;
+}
+.n_right .jian,.jia{
+  width: 60rpx;
+  height: 60rpx;
+  text-align: center;
+  line-height: 60rpx;
+  font-size: 42rpx;
+}
+.jian{
+  float: left;
+}
+.jia{
+  float: right;
+}
+.jian:active{
+  background-color: #eee;
+}
+.jia:active{
+  background-color: #eee;
+}
+.n_right input{
+  width: 76rpx;
+  float: left;
+  text-align: center;
+  margin-top: 6rpx;
+}
+.btn_box{
+  margin-top: 40rpx;
+}
+.btn_box .addcart_btn, .submit{
+  width: 40vw;
+  height: 56rpx;
+  line-height: 56rpx;
+  border-radius: 42rpx;
+  font-size: 24rpx;
+  text-align: center;
+  color: #ffffff;
+  float: left;
+  margin-left: 30rpx;
+  margin-bottom: 30rpx;
+}
+.btn_box view:active{
+  opacity: 0.8;
+}
