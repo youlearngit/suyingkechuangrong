@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "recommend": "../home/recommend",
+    "sku": "../public/sku"
+  }
+}

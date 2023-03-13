@@ -1,0 +1,99 @@
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+view.data-v-786ffcc9 {
+  --bgcolor: #c95050;
+}
+.card-menu.data-v-786ffcc9 {
+  display: flex;
+  justify-content: space-between;
+  height: 110rpx;
+  background-color: #FFFFFF;
+  align-items: center;
+  padding: 0 20rpx;
+}
+.card-menu > view.data-v-786ffcc9:nth-child(1) {
+  width: 400rpx;
+  color: var(--786ffcc9-themeColor_color);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.card-menu > view:nth-child(1) .iconfont.data-v-786ffcc9 {
+  font-size: 40rpx;
+}
+.card-menu > view:nth-child(1) .box.data-v-786ffcc9 {
+  height: 60rpx;
+  width: 60rpx;
+  background-color: var(--786ffcc9-themeColor_color);
+  border-radius: 10rpx;
+  box-shadow: 5rpx 5rpx 10rpx var(--786ffcc9-themeColor_color);
+}
+.card-menu > view.data-v-786ffcc9:nth-child(2) {
+  width: 200rpx;
+}
+.data-v-786ffcc9 .u-button {
+  height: 60rpx !important;
+  box-shadow: 5rpx 5rpx 10rpx var(--786ffcc9-themeColor_color);
+}
+.colorModalView.data-v-786ffcc9 {
+  width: 560rpx;
+  display: grid;
+  grid-template-columns: repeat(5, 110rpx);
+  -moz-column-gap: 5rpx;
+       column-gap: 5rpx;
+  row-gap: 10rpx;
+  padding: 20rpx;
+  margin-bottom: 10rpx;
+}
+.colorModalView > .item.data-v-786ffcc9 {
+  width: 100rpx;
+  height: 100rpx;
+  color: #FFFFFF;
+  font-size: 26rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10rpx;
+}
+.bg-default.data-v-786ffcc9 {
+  background-color: #fa436a;
+  color: #fff;
+}
+.text-default.data-v-786ffcc9 {
+  color: #fa436a;
+}
+.cu-item .title.data-v-786ffcc9 {
+  margin-left: 20rpx;
+  font-size: 28rpx;
+}
+.action button.data-v-786ffcc9 {
+  width: 200rpx !important;
+  font-size: 24rpx;
+  color: #fff;
+}
+.exit.data-v-786ffcc9 {
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  background-color: #FFFFFF;
+  font-size: 30rpx;
+  position: fixed;
+  left: 0;
+  bottom: 50rpx;
+}
+
+page {
+  background-color: #F8F8F8 !important;
+}

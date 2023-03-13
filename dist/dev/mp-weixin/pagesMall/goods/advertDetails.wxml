@@ -1,0 +1,1 @@
+<view class="content data-v-185cef96"><bctos-rich-text wx:if="{{a}}" class="data-v-185cef96" u-i="185cef96-0" bind:__l="__l" u-p="{{a}}"></bctos-rich-text></view>

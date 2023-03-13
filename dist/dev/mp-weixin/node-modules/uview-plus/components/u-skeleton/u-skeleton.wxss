@@ -1,0 +1,64 @@
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+view.data-v-db0f067e {
+  --bgcolor: #c95050;
+}
+view.data-v-db0f067e, scroll-view.data-v-db0f067e, swiper-item.data-v-db0f067e {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  flex-grow: 0;
+  flex-basis: auto;
+  align-items: stretch;
+  align-content: flex-start;
+}
+.u-skeleton.data-v-db0f067e {
+  flex: 1;
+}
+.u-skeleton__wrapper.data-v-db0f067e {
+
+  display: flex;
+
+  flex-direction: row;
+}
+.u-skeleton__wrapper__avatar.data-v-db0f067e {
+  background: linear-gradient(90deg, #F1F2F4 25%, #e6e6e6 37%, #F1F2F4 50%);
+  background-size: 400% 100%;
+  margin-right: 15px;
+}
+.u-skeleton__wrapper__avatar--circle.data-v-db0f067e {
+  border-radius: 100px;
+}
+.u-skeleton__wrapper__avatar--square.data-v-db0f067e {
+  border-radius: 4px;
+}
+.u-skeleton__wrapper__content.data-v-db0f067e {
+  flex: 1;
+}
+.u-skeleton__wrapper__content__rows.data-v-db0f067e, .u-skeleton__wrapper__content__title.data-v-db0f067e {
+  background: linear-gradient(90deg, #F1F2F4 25%, #e6e6e6 37%, #F1F2F4 50%);
+  background-size: 400% 100%;
+  border-radius: 3px;
+}
+.animate.data-v-db0f067e {
+  animation: skeleton-db0f067e 1.8s ease infinite;
+}
+@keyframes skeleton-db0f067e {
+0% {
+    background-position: 100% 50%;
+}
+100% {
+    background-position: 0 50%;
+}
+}

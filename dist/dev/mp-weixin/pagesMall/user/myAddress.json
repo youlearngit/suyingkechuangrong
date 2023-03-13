@@ -1,0 +1,7 @@
+{
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "收货地址",
+  "usingComponents": {
+    "nodata": "../../pages/commponent/public/nodata"
+  }
+}

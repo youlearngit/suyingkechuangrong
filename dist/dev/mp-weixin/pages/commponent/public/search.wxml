@@ -1,0 +1,1 @@
+<view class="search data-v-3fb5298b"><view class="input-box data-v-3fb5298b" bindtap="{{a}}"><view class="inputs data-v-3fb5298b" style="color:#c0c0c0;font-size:24rpx">搜索关键词</view><view class="icon search data-v-3fb5298b"><image src="/static/images/home/search.png" class="search_img data-v-3fb5298b"></image></view></view></view>

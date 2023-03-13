@@ -229,15 +229,15 @@
 	const scrollHeight = ref < string > ('500')
 	onMounted(async () => {
 		// 计算content高度
-		uni.getSystemInfo({
-			success: res => {
-				const query = uni.createSelectorQuery()
-				query.select('.space').boundingClientRect()
-				query.exec(re => {
-					scrollHeight.value = res.windowHeight - re[0].top + 'px';
-				})
-			}
-		})
+		// uni.getSystemInfo({
+		// 	success: res => {
+		// 		const query = uni.createSelectorQuery()
+		// 		query.select('.space').boundingClientRect()
+		// 		query.exec(re => {
+		// 			scrollHeight.value = res.windowHeight - re[0].top + 'px';
+		// 		})
+		// 	}
+		// })
 	})
 	//获取颜色
 	const store = GlobalStore()
@@ -396,13 +396,13 @@
 	}
 
 	.header {
-		background: url('/src/static/images/sykcr/project-bg.png') no-repeat;
+		background: url('/static/images/sykcr/project-bg.png') no-repeat;
 		background-size: 750rpx 666rpx;
 		height: 450rpx;
 	}
 
 	.container {
-		background: url('/src/static/images/sykcr/search-bg.png') no-repeat;
+		background: url('/static/images/sykcr/search-bg.png') no-repeat;
 		background-size: 750rpx 666rpx;
 		height: 100vh;
 		padding: 50rpx 30rpx;
@@ -514,21 +514,21 @@
 	}
 
 	.list {
-		background: url('/src/static/images/sykcr/card.png') no-repeat;
+		background: url('/static/images/sykcr/card.png') no-repeat;
 		background-size: 715rpx 437rpx;
 		padding: 40rpx 45rpx;
 		height: 437rpx;
 	}
 	
 	.contact{
-		background: url('/src/static/images/sykcr/contact-bg.png') no-repeat;
+		background: url('/static/images/sykcr/contact-bg.png') no-repeat;
 		width: 590rpx;
 		height: 631rpx;
 		background-size: cover;
 		padding: 61rpx 35rpx;
 	}
 	.card-phone{
-		background: url('/src/static/images/sykcr/card-phone.png') no-repeat;
+		background: url('/static/images/sykcr/card-phone.png') no-repeat;
 		width: 200rpx;
 		height: 348rpx;
 		background-size: cover;

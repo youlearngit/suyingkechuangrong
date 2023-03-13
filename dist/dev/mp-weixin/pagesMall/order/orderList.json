@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "订单列表",
+  "usingComponents": {
+    "tabs": "../../pages/commponent/public/tabs",
+    "order-cache": "./orderCache"
+  }
+}

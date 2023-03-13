@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "商品评价",
+  "usingComponents": {
+    "u-rate": "../../../node-modules/uview-plus/components/u-rate/u-rate",
+    "video-pay": "./videoPay"
+  }
+}

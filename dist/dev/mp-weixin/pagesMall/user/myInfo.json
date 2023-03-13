@@ -1,0 +1,8 @@
+{
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "个人信息",
+  "usingComponents": {
+    "u-button": "../../node-modules/uview-plus/components/u-button/u-button",
+    "u-field": "../../components/u-field/u-field"
+  }
+}

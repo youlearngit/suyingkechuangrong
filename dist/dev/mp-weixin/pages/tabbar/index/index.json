@@ -1,0 +1,12 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "首页",
+  "enablePullDownRefresh": true,
+  "backgroundTextStyle": "dark",
+  "usingComponents": {
+    "header-view": "../../commponent/home/header",
+    "class-list": "../../commponent/home/classList",
+    "suspension": "../../commponent/home/suspension",
+    "recommend": "../../commponent/home/recommend"
+  }
+}

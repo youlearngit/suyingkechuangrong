@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "evaluate-info": "./evaluateInfo",
+    "video-pay": "../../order/evaluate/videoPay"
+  }
+}

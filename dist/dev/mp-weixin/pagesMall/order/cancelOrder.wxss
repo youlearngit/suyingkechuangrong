@@ -1,0 +1,72 @@
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+view.data-v-c62723da {
+  --bgcolor: #c95050;
+}
+page.data-v-c62723da {
+  background-color: #F5F5FA;
+}
+.cencal_order.data-v-c62723da {
+  padding: 20rpx 4%;
+  background-color: #fff;
+}
+.remark.data-v-c62723da {
+  background-color: #F5F5F5;
+  border-radius: 10rpx;
+  height: 60vw;
+  padding: 20rpx;
+  margin-top: 20rpx;
+}
+.remark textarea.data-v-c62723da {
+  font-size: 26rpx;
+  color: #797979;
+}
+.textarea_p.data-v-c62723da {
+  font-size: 24rpx;
+  color: #797979;
+}
+.tag_box.data-v-c62723da {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 40rpx;
+}
+.tag_box.data-v-c62723da::after {
+  content: "";
+  width: 30%;
+}
+.tag_list.data-v-c62723da {
+  max-width: 24%;
+  min-width: 24%;
+  text-align: center;
+  margin-bottom: 30rpx;
+}
+.tag_list view.data-v-c62723da {
+  height: 60rpx;
+  line-height: 60rpx;
+  border-radius: 30rpx;
+  border: 1rpx solid #ddd;
+  font-size: 22rpx;
+  color: #303030;
+}
+.btns.data-v-c62723da {
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 30rpx;
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 100rpx;
+  border-radius: 8rpx;
+}

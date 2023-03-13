@@ -1,0 +1,1 @@
+<view class="tabs data-v-2ece19be"><view wx:for="{{a}}" wx:for-item="item" wx:key="f" class="tabs_list data-v-2ece19be" bindtap="{{item.g}}" style="{{item.h}}"><u-badge wx:if="{{item.b}}" class="data-v-2ece19be" u-i="{{item.a}}" bind:__l="__l" u-p="{{item.b}}"></u-badge> {{item.c}} <view wx:if="{{item.d}}" class="active data-v-2ece19be" style="{{item.e}}"></view></view></view>

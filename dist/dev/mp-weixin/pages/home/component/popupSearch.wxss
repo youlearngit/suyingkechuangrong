@@ -1,0 +1,116 @@
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+view.data-v-4ef1e6b6 {
+  --bgcolor: #c95050;
+}
+
+/* 右侧弹出框 */
+.right_popup.data-v-4ef1e6b6 {
+  width: 85%;
+  height: 100%;
+  position: fixed;
+  right: 0;
+  top: 0;
+  background-color: #fff;
+  z-index: 920;
+  transition: all 0.3s;
+}
+.top_price.data-v-4ef1e6b6 {
+  height: 80rpx;
+  line-height: 80rpx;
+  display: flex;
+  padding: 0 20rpx;
+}
+.top_price text.data-v-4ef1e6b6 {
+  flex: 1;
+  text-align: center;
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #333;
+}
+.input_box.data-v-4ef1e6b6 {
+  padding: 0 30rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30rpx;
+}
+.input_box text.data-v-4ef1e6b6 {
+  color: #999;
+}
+.input_box input.data-v-4ef1e6b6 {
+  flex: 1;
+  max-width: 45%;
+  height: 100%;
+  background-color: #F7F7F7;
+  border-radius: 40rpx;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 24rpx;
+}
+.allClass.data-v-4ef1e6b6 {
+  margin-top: 50rpx;
+  padding: 0 30rpx;
+}
+.allClass .classtext.data-v-4ef1e6b6 {
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #333;
+}
+.allClass .class_box.data-v-4ef1e6b6 {
+  margin-top: 30rpx;
+  overflow: hidden;
+}
+.class_box .class_tag.data-v-4ef1e6b6 {
+  height: 60rpx;
+  line-height: 60rpx;
+  padding: 0 20rpx;
+  font-size: 26rpx;
+  color: #333;
+  border: 1rpx solid #999;
+  text-align: center;
+  border-radius: 30rpx;
+  float: left;
+  margin-right: 20rpx;
+  margin-bottom: 20rpx;
+}
+.bottom_btn.data-v-4ef1e6b6 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+.bottom_btn u-button.data-v-4ef1e6b6 {
+  width: 40%;
+}
+.tow_scroll.data-v-4ef1e6b6 {
+  height: 80rpx;
+  line-height: 80rpx;
+  padding: 0 10rpx;
+  white-space: nowrap;
+}
+.tow_scroll .scroll_tags.data-v-4ef1e6b6 {
+  display: inline-block;
+  background-color: #FFF8F5;
+  color: #202020;
+  height: 50rpx;
+  line-height: 50rpx;
+  padding: 0 25rpx;
+  text-align: center;
+  font-size: 24rpx;
+  border-radius: 30rpx;
+  margin: 0 10rpx;
+}

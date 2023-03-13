@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "u-swiper": "../../../node-modules/uview-plus/components/u-swiper/u-swiper",
+    "navbar": "../../../components/u-navbar/u-navbar"
+  }
+}

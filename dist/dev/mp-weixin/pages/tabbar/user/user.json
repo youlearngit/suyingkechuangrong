@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "我的",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "my-account": "../../commponent/user/my-account",
+    "my-order": "../../commponent/user/my-order",
+    "my-footprint": "../../commponent/user/my-footprint",
+    "my-server": "../../commponent/user/my-server"
+  }
+}

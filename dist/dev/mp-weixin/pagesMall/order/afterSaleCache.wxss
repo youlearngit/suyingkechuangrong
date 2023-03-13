@@ -1,0 +1,27 @@
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+view.data-v-50dae3a0 {
+  --bgcolor: #c95050;
+}
+.list_box.data-v-50dae3a0 {
+  box-sizing: border-box;
+  overflow: hidden;
+  width: 100%;
+  padding: 20rpx 3% 50rpx;
+  margin-top: 80rpx;
+  height: calc(100vh - 80rpx);
+}
+.list_box scroll-view.data-v-50dae3a0 {
+  height: 100%;
+}

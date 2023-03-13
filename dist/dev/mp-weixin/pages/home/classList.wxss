@@ -1,0 +1,114 @@
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+view.data-v-655e1cec {
+  --bgcolor: #c95050;
+}
+.slot-wrap.data-v-655e1cec {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+.slot-wrap > u-input.data-v-655e1cec {
+  flex: 1;
+  margin-right: 20rpx;
+  height: 90%;
+  margin-bottom: 7rpx;
+}
+.search.data-v-655e1cec {
+  background: #FFFFFF;
+  border-radius: 100rpx;
+  flex: 1;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.screen.data-v-655e1cec {
+  height: 80rpx;
+  line-height: 80rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20rpx;
+  z-index: 900;
+  position: relative;
+  background-color: #fff;
+}
+.screen .screen_list.data-v-655e1cec {
+  flex: 1;
+  text-align: center;
+  font-size: 28rpx;
+  color: #333;
+  font-weight: 500;
+}
+.screen .screen_list .down.data-v-655e1cec {
+  margin-left: 10rpx;
+}
+.screen_menu.data-v-655e1cec {
+  display: flex;
+  width: 200rpx;
+  justify-content: space-between;
+  align-items: center;
+}
+.screen_menu .box.data-v-655e1cec {
+  width: 4rpx;
+  height: 45rpx;
+  background: #9b9b9b;
+}
+.screen_list text.data-v-655e1cec {
+  font-size: 24rpx;
+  font-weight: normal;
+}
+.xiaoliang.data-v-655e1cec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: right;
+  margin-left: 20rpx;
+}
+.xiaoliang .name.data-v-655e1cec {
+  font-size: 28rpx;
+  margin-right: 10rpx;
+  color: #999999;
+  font-weight: bold;
+}
+.xiaoliang .icon.data-v-655e1cec {
+  width: 40rpx;
+  line-height: 15rpx;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  color: #999999;
+}
+.xiaoliang .icon text.data-v-655e1cec {
+  font-size: 22rpx;
+}
+.tow_scroll.data-v-655e1cec {
+  height: 80rpx;
+  line-height: 80rpx;
+  white-space: nowrap;
+}
+.tow_scroll .scroll_tags.data-v-655e1cec {
+  display: inline-block;
+  background-color: #FFF8F5;
+  color: #202020;
+  height: 50rpx;
+  line-height: 50rpx;
+  padding: 0 25rpx;
+  text-align: center;
+  font-size: 24rpx;
+  border-radius: 30rpx;
+  margin: 0 10rpx;
+}

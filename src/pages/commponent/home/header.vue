@@ -98,7 +98,7 @@
 		overflow: hidden;
 		color: #fff;
 		position: relative;
-		background: url('/src/static/images/sykcr/gradientBg.png') no-repeat;
+		background: url('/static/images/sykcr/gradientBg.png') no-repeat;
 		padding: 0px 20rpx;
 		background-size: 100% 300rpx;
 	}

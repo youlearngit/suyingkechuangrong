@@ -1,0 +1,9 @@
+{
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "商品评价",
+  "usingComponents": {
+    "nodata": "../../pages/commponent/public/nodata",
+    "evaluate-info": "./component/evaluateInfo",
+    "video-pay": "../order/evaluate/videoPay"
+  }
+}

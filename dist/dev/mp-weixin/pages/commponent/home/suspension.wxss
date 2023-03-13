@@ -1,0 +1,94 @@
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+view.data-v-6bd76bca {
+  --bgcolor: #c95050;
+}
+.suspension.data-v-6bd76bca {
+  position: fixed;
+  bottom: 12vh;
+  right: 3%;
+  width: 80rpx;
+  z-index: 200;
+}
+.suspension .top.data-v-6bd76bca {
+  width: 100%;
+  padding-bottom: 20rpx;
+  transition: all 0.3s;
+  transform: scale(0.1) translateY(90%);
+  opacity: 0;
+  z-index: -100;
+}
+.suspension .top .serve.data-v-6bd76bca {
+  width: 0rpx;
+  height: 0rpx;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border-radius: 50%;
+  margin-bottom: 20rpx;
+}
+.ontop.data-v-6bd76bca {
+  position: fixed;
+  bottom: 100rpx;
+  right: 30rpx;
+}
+.topon.data-v-6bd76bca {
+  width: 100%;
+  transition: all 0.3s;
+  opacity: 1;
+  transform: none;
+  z-index: 100;
+}
+.topon .serve.data-v-6bd76bca {
+  width: 70rpx;
+  height: 70rpx;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border-radius: 50%;
+  margin-bottom: 20rpx;
+}
+.suspension .bottom .serve.data-v-6bd76bca {
+  width: 70rpx;
+  height: 70rpx;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border-radius: 50%;
+  margin-bottom: 20rpx;
+}
+.suspension .serve.data-v-6bd76bca:active {
+  opacity: 0.8;
+}
+.serve .iconfont.data-v-6bd76bca {
+  font-size: 32rpx;
+  display: block;
+  text-align: center;
+  line-height: 70rpx;
+}
+.ontop.data-v-6bd76bca {
+  width: 70rpx;
+  height: 70rpx;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+.ontop.data-v-6bd76bca:active {
+  opacity: 0.8;
+}
+.ontop .top_img.data-v-6bd76bca {
+  width: 45rpx;
+  height: 45rpx;
+  display: block;
+  margin: 0 auto;
+  padding-top: 15rpx;
+  overflow: hidden;
+}

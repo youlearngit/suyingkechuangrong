@@ -1,0 +1,92 @@
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+view.data-v-8c3aaa34 {
+  --bgcolor: #c95050;
+}
+.jieguo.data-v-8c3aaa34 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+.place.data-v-8c3aaa34 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.5), #ffffff);
+  z-index: 10;
+}
+.jieguo_box.data-v-8c3aaa34 {
+  width: 88%;
+  background-color: #fff;
+  height: 90vw;
+  border-radius: 10rpx;
+  box-shadow: 0rpx 0rpx 10rpx #999;
+  z-index: 900;
+  position: absolute;
+  top: 190rpx;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.success.data-v-8c3aaa34 {
+  text-align: center;
+  margin-top: 50rpx;
+  color: green;
+}
+.error.data-v-8c3aaa34 {
+  text-align: center;
+  margin-top: 50rpx;
+  color: #b20744;
+}
+.cancel.data-v-8c3aaa34 {
+  text-align: center;
+  margin-top: 50rpx;
+  color: #505050;
+}
+text.data-v-8c3aaa34 {
+  font-size: 140rpx;
+}
+.moneys.data-v-8c3aaa34 {
+  text-align: center;
+  font-size: 72rpx;
+  margin-top: 20rpx;
+  font-weight: bold;
+  color: var(--8c3aaa34-colors);
+}
+.jieguo .texts.data-v-8c3aaa34 {
+  margin-top: 20rpx;
+}
+.wancheng.data-v-8c3aaa34 {
+  width: 80%;
+  height: 80rpx;
+  border: 2rpx solid #3E7E8B;
+  color: #3E7E8B;
+  text-align: center;
+  line-height: 80rpx;
+  border-radius: 10rpx;
+  margin: 110rpx auto 0;
+  font-weight: bold;
+}
+.ewm.data-v-8c3aaa34 {
+  margin-top: 20rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  text-align: center;
+  font-size: 24rpx;
+  color: #999;
+}

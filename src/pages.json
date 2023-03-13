@@ -25,6 +25,18 @@
 					"navigationBarBackgroundColor": "rgb(152,190,255)"
 				}
 			},
+			{
+				"path": "pages/project/detail/index",
+				"style": {
+					"navigationBarTitleText": "详细介绍"
+				}
+			},
+			{
+				"path": "pages/capitalDemand/index/index",
+				"style": {
+					"navigationBarTitleText": "资金需求"
+				}
+			},
 		{
 			"path": "pages/tabbar/category/category",
 			"style": {
@@ -224,14 +236,14 @@
 		"list": [{
 				"pagePath": "pages/tabbar/index/index",
 				"iconPath": "/static/images/tabBar/home.png",
-				"selectedIconPath": "/static/images/tabBar/home-default.png",
+				"selectedIconPath": "/static/images/tabBar/home.png",
 				"text": "首页"
 			},
 
 			{
 				"pagePath": "pages/tabbar/user/user",
 				"iconPath": "/static/images/tabBar/user.png",
-				"selectedIconPath": "/static/images/tabBar/user-default.png",
+				"selectedIconPath": "/static/images/tabBar/user.png",
 				"text": "我的"
 			}
 		],

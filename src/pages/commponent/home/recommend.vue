@@ -161,12 +161,12 @@
 		font-size: 34rpx;
 		color: #1C294F;
 		text-align: justify;
-		font-weight: 500;
+		font-weight: 600;
 		margin-left: 20rpx;
 	}
 
 	.list {
-		background: url('/src/static/images/sykcr/card.png') no-repeat;
+		background: url('/static/images/sykcr/card.png') no-repeat;
 		background-size: 715rpx 437rpx;
 		margin: 0 18rpx;
 		padding: 40rpx 45rpx;

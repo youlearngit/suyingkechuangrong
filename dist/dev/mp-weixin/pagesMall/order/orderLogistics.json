@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "物流信息",
+  "usingComponents": {
+    "u-time-line": "../../components/u-time-line/u-time-line",
+    "u-time-line-item": "../../components/u-time-line-item/u-time-line-item"
+  }
+}

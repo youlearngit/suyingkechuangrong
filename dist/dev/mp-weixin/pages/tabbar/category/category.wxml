@@ -1,0 +1,1 @@
+<view class="category data-v-58b4c5fc"><view class="search data-v-58b4c5fc"><search-view class="search_box data-v-58b4c5fc" u-i="58b4c5fc-0" bind:__l="__l"></search-view></view><cate wx:if="{{a}}" class="data-v-58b4c5fc" u-i="58b4c5fc-1" bind:__l="__l" u-p="{{a}}"></cate></view>

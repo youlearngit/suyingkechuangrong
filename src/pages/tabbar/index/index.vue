@@ -22,6 +22,26 @@
    
     <!-- 推荐商品列表 -->
     <recommend :colors="colors" :modes="true" :dataList="dataList" :loading="loading" :bottoms="skuBottom"></recommend>
+	
+	
+	<u-overlay :show="show" mask-click-able="false" >
+		<view style="display: flex;flex-direction: column;position: fixed;width: 100%;bottom: 182rpx;z-index: 999;">
+			<view style="display: flex;align-items: center;justify-content: space-around;">
+				<image src="/static/images/sykcr/zjxq.png" mode="" style="width: 140rpx;height: 140rpx;"></image>
+				<!-- <u-line direction="col" length="50%"></u-line> -->
+				<image src="/static/images/sykcr/jsxq.png" mode="" style="width: 140rpx;height: 140rpx;"></image>
+				<!-- <u-line direction="col" length="50%"></u-line> -->
+				<image src="/static/images/sykcr/cpxq.png" mode="" style="width: 140rpx;height: 140rpx;"></image>
+			</view>
+			
+			<image src="/static/images/sykcr/close.png" mode="" style="width: 38rpx;height: 38rpx;margin: 0 auto;margin-top: 70rpx;"  @click="show = false"></image>
+			
+		</view>
+		
+		
+	</u-overlay>
+	
+	
     <!-- 右侧悬浮菜单栏 -->
     <suspension :scrollShow="scrollShow" :colors="colors"></suspension>
   </view>
@@ -54,6 +74,12 @@ onShow(() => {
     frontColor: '#ffffff'
   });
 });
+
+uni.onTabBarMidButtonTap(()=>{
+	show.value=true
+})
+
+const show = ref(false)
 const scrollShow = ref(false)
 const loading = ref(true)
 const dataTotal = ref(0)
@@ -71,6 +97,8 @@ onMounted(async () => {
   skuBottom.value = 85
   // #endif
 })
+
+
 
 //加载数据啦
 const loadData = async () => {

@@ -1,0 +1,68 @@
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+view.data-v-2e67f4df {
+  --bgcolor: #c95050;
+}
+
+/*我的足迹*/
+.footprint.data-v-2e67f4df {
+  background-color: #fff;
+  margin-bottom: 20rpx;
+}
+.footprint .nodata.data-v-2e67f4df {
+  padding: 48rpx 0;
+  text-align: center;
+}
+.footprint .nodata text.data-v-2e67f4df {
+  font-size: 40rpx;
+}
+.footprint .nodata .tips.data-v-2e67f4df {
+  font-size: 24rpx;
+  color: #999;
+  padding-top: 20rpx;
+}
+.footprint_scroll.data-v-2e67f4df {
+  width: auto;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+.scroll_box.data-v-2e67f4df {
+  width: 152rpx;
+  background-color: #fff;
+  margin-top: 10rpx;
+  margin-left: 10rpx;
+  border-radius: 8rpx;
+  overflow: hidden;
+  display: inline-block;
+}
+.scroll_box.data-v-2e67f4df:last-child {
+  margin-right: 10rpx;
+}
+.scroll_box.data-v-2e67f4df:active {
+  opacity: 0.8;
+}
+.scroll_box image.data-v-2e67f4df {
+  width: 152rpx;
+  height: 152rpx;
+  display: block;
+}
+.scroll_box view.data-v-2e67f4df {
+  font-size: 24rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  line-height: 40rpx;
+  padding: 10rpx 5rpx;
+  background: #f1f0f0;
+}

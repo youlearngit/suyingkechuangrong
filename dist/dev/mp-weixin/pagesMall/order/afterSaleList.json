@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "售后列表",
+  "usingComponents": {
+    "tabs": "../../pages/commponent/public/tabs",
+    "order-cache": "./orderCache",
+    "after-sale-cache": "./afterSaleCache"
+  }
+}

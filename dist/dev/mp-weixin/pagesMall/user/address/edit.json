@@ -1,0 +1,10 @@
+{
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "编辑收货地址",
+  "usingComponents": {
+    "u-input": "../../../node-modules/uview-plus/components/u-input/u-input",
+    "u--textarea": "../../../node-modules/uview-plus/components/u--textarea/u--textarea",
+    "u-switch": "../../../node-modules/uview-plus/components/u-switch/u-switch",
+    "area-picker": "./area_picker"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "购物车",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-empty": "../../../node-modules/uview-plus/components/u-empty/u-empty",
+    "number-box": "../../../components/u-number-box/u-number-box"
+  }
+}

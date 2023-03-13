@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "nodata": "../../pages/commponent/public/nodata",
+    "after-sale-item": "./afterSaleItem"
+  }
+}

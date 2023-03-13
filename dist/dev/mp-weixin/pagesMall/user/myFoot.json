@@ -1,0 +1,7 @@
+{
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "我的足迹",
+  "usingComponents": {
+    "nodata": "../../pages/commponent/public/nodata"
+  }
+}

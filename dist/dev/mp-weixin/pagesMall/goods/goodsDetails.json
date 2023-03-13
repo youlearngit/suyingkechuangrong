@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "商品详情",
+  "usingComponents": {
+    "u-skeleton": "../../node-modules/uview-plus/components/u-skeleton/u-skeleton",
+    "u-tag": "../../node-modules/uview-plus/components/u-tag/u-tag",
+    "swiper-view": "./component/swiper",
+    "evaluate-list": "./component/evaluateList",
+    "bctos-rich-text": "./component/bctos-rich-text",
+    "sku": "../../pages/commponent/public/sku",
+    "coupon": "../../pages/commponent/public/coupon"
+  }
+}

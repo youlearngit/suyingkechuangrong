@@ -1,0 +1,39 @@
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+view.data-v-33255ad2 {
+  --bgcolor: #c95050;
+}
+.evaluate.data-v-33255ad2 {
+  padding: 0 4%;
+  border-top: 10rpx solid #ddd;
+}
+.evaluate .eva_title.data-v-33255ad2 {
+  height: 70rpx;
+  margin-top: 10rpx;
+  line-height: 70rpx;
+  font-size: 30rpx;
+  font-weight: bold;
+  color: #202020;
+}
+.evaluate .eva_title text.data-v-33255ad2 {
+  font-weight: normal;
+}
+.evaluate .eva_title .seeAll.data-v-33255ad2 {
+  float: right;
+  font-size: 24rpx;
+  color: #999999;
+}
+.evaluate .eva_title .seeAll.data-v-33255ad2:active {
+  opacity: 0.8;
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "分类",
+  "usingComponents": {
+    "search-view": "../../commponent/public/search",
+    "cate": "../../commponent/cate/cate"
+  }
+}

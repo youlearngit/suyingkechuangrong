@@ -1,0 +1,72 @@
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+view.data-v-32b8fa71 {
+  --bgcolor: #c95050;
+}
+.nyz_area_view.data-v-32b8fa71 {
+  width: 100%;
+  position: fixed;
+  bottom: -1000px;
+  left: 0px;
+  background-color: #fff;
+  z-index: 21;
+  transition: all 0.3s;
+}
+.nyz_area_pick_view.data-v-32b8fa71 {
+  height: 200px;
+  width: 100%;
+}
+.nyz_area_colum_view.data-v-32b8fa71 {
+  line-height: 35px;
+  text-align: center;
+  font-size: 28rpx;
+}
+.hide.data-v-32b8fa71 {
+  bottom: -1000rpx;
+  transition: all 0.3s;
+}
+.show.data-v-32b8fa71 {
+  bottom: 0rpx;
+  transition: all 0.3s;
+}
+.nyz_area_view_btns.data-v-32b8fa71 {
+  background-color: #fff;
+  border-bottom: 1px solid #eeeeee;
+  font-size: 30rpx;
+  padding: 18rpx 0rpx;
+}
+.nyz_area_view_btns > text.data-v-32b8fa71 {
+  display: inline-block;
+  word-spacing: 4rpx;
+  letter-spacing: 4rpx;
+}
+.nyz_area_view_btn_cancle.data-v-32b8fa71 {
+  color: #939393;
+  padding-right: 20rpx;
+  padding-left: 25rpx;
+}
+.nyz_area_view_btn_sure.data-v-32b8fa71 {
+  float: right;
+  padding-left: 20rpx;
+  padding-right: 25rpx;
+}
+.nyz_area_mask.data-v-32b8fa71 {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(8, 8, 8, 0.8);
+  position: absolute;
+  top: 0rpx;
+  left: 0rpx;
+  z-index: 20;
+}

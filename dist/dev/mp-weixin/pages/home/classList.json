@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "商品列表",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-input": "../../node-modules/uview-plus/components/u-input/u-input",
+    "u-popup": "../../node-modules/uview-plus/components/u-popup/u-popup",
+    "navbar": "../../components/u-navbar/u-navbar",
+    "recommend": "../commponent/home/recommend",
+    "sku": "../commponent/public/sku",
+    "popup-search": "./component/popupSearch"
+  }
+}

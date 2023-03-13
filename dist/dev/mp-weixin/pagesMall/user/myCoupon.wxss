@@ -1,0 +1,116 @@
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+view.data-v-0f02bf96 {
+  --bgcolor: #c95050;
+}
+.coupon_box.data-v-0f02bf96 {
+  margin: 20rpx;
+  box-shadow: 0rpx 0rpx 10rpx #ddd;
+  position: relative;
+  border-radius: 10rpx;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.coupon_box .left.data-v-0f02bf96 {
+  width: 70%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 20rpx;
+}
+.coupon_box .left .hui.data-v-0f02bf96 {
+  width: 40rpx;
+  height: 40rpx;
+  font-size: 20rpx;
+  color: #fff;
+  background-color: #EC1818;
+  border-radius: 8rpx;
+  line-height: 40rpx;
+  text-align: center;
+  display: inline-block;
+  transform: translateY(-5rpx);
+}
+.coupon_box .left .left_top.data-v-0f02bf96 {
+  width: 60vw;
+  font-size: 26rpx;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.left_top .hui_name.data-v-0f02bf96 {
+  line-height: 60rpx;
+  height: 60rpx;
+  margin-left: 20rpx;
+  display: inline-block;
+}
+.left_bottom.data-v-0f02bf96 {
+  font-size: 24rpx;
+  font-weight: bold;
+  color: #333;
+  height: 60rpx;
+  line-height: 60rpx;
+}
+.coupon_box .right.data-v-0f02bf96 {
+  text-align: center;
+  height: 160rpx;
+  width: 180rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  background-color: #A8A8A8;
+  margin-right: 20rpx;
+}
+.coupon_box .right .shiyong.data-v-0f02bf96 {
+  height: 40rpx;
+  line-height: 40rpx;
+  background-color: #fff;
+  border-radius: 20rpx;
+  padding: 0 20rpx;
+  color: #A8A8A8;
+}
+.coupon_box .right .money.data-v-0f02bf96 {
+  font-size: 45rpx;
+  width: 180rpx;
+  color: #fff;
+}
+.coupon_box .right text.data-v-0f02bf96 {
+  font-size: 24rpx;
+  color: #fff;
+  height: 40rpx;
+  line-height: 34rpx;
+}
+.coupon_box .bottom.data-v-0f02bf96 {
+  height: 60rpx;
+  line-height: 60rpx;
+  display: flex;
+  align-content: flex-start;
+  font-size: 24rpx;
+  margin-top: 10rpx;
+}
+.coupon_box .bottom view.data-v-0f02bf96 {
+  margin-right: 20rpx;
+  color: #888;
+  font-weight: bold;
+}
+.ysy.data-v-0f02bf96 {
+  width: 80rpx;
+  height: 80rpx;
+  position: absolute;
+  top: 20rpx;
+  right: 200rpx;
+}

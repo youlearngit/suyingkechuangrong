@@ -1,0 +1,55 @@
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+view.data-v-0805b6a2 {
+  --bgcolor: #c95050;
+}
+.u-numberbox.data-v-0805b6a2 {
+  display: inline-flex;
+  align-items: center;
+}
+.u-number-input.data-v-0805b6a2 {
+  position: relative;
+  text-align: center;
+  padding: 0;
+  margin: 0 6rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.u-icon-plus.data-v-0805b6a2,
+.u-icon-minus.data-v-0805b6a2 {
+  width: 60rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.u-icon-plus.data-v-0805b6a2 {
+  border-radius: 0 8rpx 8rpx 0;
+}
+.u-icon-minus.data-v-0805b6a2 {
+  border-radius: 8rpx 0 0 8rpx;
+}
+.u-icon-disabled.data-v-0805b6a2 {
+  color: #c8c9cc !important;
+  background: #f7f8fa !important;
+}
+.u-input-disabled.data-v-0805b6a2 {
+  color: #c8c9cc !important;
+  background-color: #f2f3f5 !important;
+}
+.num-btn.data-v-0805b6a2 {
+  font-weight: 550;
+  position: relative;
+  top: 0rpx;
+}

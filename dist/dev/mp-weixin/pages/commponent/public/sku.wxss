@@ -1,0 +1,142 @@
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+view.data-v-60776fca {
+  --bgcolor: #c95050;
+}
+.mask.data-v-60776fca {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #000;
+  z-index: 900;
+  opacity: 0.7;
+}
+.sku.data-v-60776fca {
+  width: 92%;
+  min-height: 30vh;
+  position: fixed;
+  bottom: -100%;
+  z-index: 910;
+  left: 0;
+  background-color: #ffffff;
+  padding: 20rpx 4%;
+  border-top-left-radius: 10rpx;
+  border-top-right-radius: 10rpx;
+  border-bottom: 1rpx solid #eee;
+  transition: all 0.3s;
+}
+.shows.data-v-60776fca {
+  bottom: 0;
+  transition: all 0.3s;
+}
+.sku_top.data-v-60776fca {
+  overflow: hidden;
+}
+.sku_top .top_img.data-v-60776fca {
+  height: 170rpx;
+  width: 170rpx;
+  float: left;
+  margin-right: 15rpx;
+  border-radius: 8rpx;
+}
+.sku_top .sku_title.data-v-60776fca {
+  font-size: 30rpx;
+  line-height: 35rpx;
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.sku_top .moneys.data-v-60776fca {
+  font-size: 30rpx;
+  line-height: 40rpx;
+  overflow: hidden;
+  margin-top: 20rpx;
+  font-weight: bold;
+  color: var(--60776fca-colors);
+}
+.sku_top .kucun.data-v-60776fca {
+  font-size: 24rpx;
+  color: #999;
+  overflow: hidden;
+}
+.sku_list.data-v-60776fca {
+  margin-top: 20rpx;
+  overflow: hidden;
+  margin-bottom: 40rpx;
+}
+.sku_name.data-v-60776fca {
+  font-size: 24rpx;
+  color: #666;
+  overflow: hidden;
+}
+.sku_tag.data-v-60776fca {
+  overflow: hidden;
+  margin-top: 20rpx;
+}
+.sku_tag .tag_s.data-v-60776fca {
+  align-items: center;
+  padding: 0 20rpx;
+  text-align: center;
+  font-size: 26rpx;
+  color: #202020;
+  background-color: #F5F5F5;
+  border: 1rpx solid #F5F5F5;
+  float: left;
+  border-radius: 40rpx;
+  margin-right: 20rpx;
+  transition: all 0.2s;
+  margin-bottom: 20rpx;
+  font-weight: 500;
+}
+.sku_tag .tag_s.data-v-60776fca::after {
+  border: none;
+}
+.number.data-v-60776fca {
+  margin-top: 10rpx;
+  border-top: 1rpx solid #ccc;
+  width: 100%;
+  height: 80rpx;
+  padding-top: 10rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.number .n_left.data-v-60776fca {
+  font-size: 28rpx;
+  color: #333;
+}
+.number .n_right.data-v-60776fca {
+  height: 60rpx;
+  width: 310rpx;
+  margin-top: 10rpx;
+  border-radius: 5rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn_box.data-v-60776fca {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40rpx;
+  margin-bottom: 20rpx;
+}
+.ondisabled.data-v-60776fca {
+  background-color: #F9F9F9;
+  opacity: 0.5;
+}

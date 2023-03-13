@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "设置",
+  "usingComponents": {
+    "u-button": "../../../node-modules/uview-plus/components/u-button/u-button",
+    "u-popup": "../../../node-modules/uview-plus/components/u-popup/u-popup",
+    "item-cell": "../../commponent/setting/item-cell"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "navigationStyle": "default",
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": true,
+  "backgroundTextStyle": "dark",
+  "navigationBarBackgroundColor": "rgb(152,190,255)",
+  "usingComponents": {
+    "u-search": "../../../node-modules/uview-plus/components/u-search/u-search",
+    "u-line": "../../../node-modules/uview-plus/components/u-line/u-line",
+    "u-popup": "../../../node-modules/uview-plus/components/u-popup/u-popup"
+  }
+}

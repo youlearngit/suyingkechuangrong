@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "详情",
+  "usingComponents": {
+    "bctos-rich-text": "./component/bctos-rich-text"
+  }
+}

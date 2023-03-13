@@ -1,0 +1,37 @@
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+view.data-v-8c21b4a4 {
+  --bgcolor: #c95050;
+}
+.my_order.data-v-8c21b4a4 {
+  background-color: #fff;
+  margin-bottom: 20rpx;
+}
+.order_btnbox.data-v-8c21b4a4 {
+  display: flex;
+  align-items: center;
+}
+.order_btns.data-v-8c21b4a4 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  margin: 10rpx 0 20rpx;
+  padding: 20rpx 0 10rpx;
+  font-size: 24rpx;
+  color: #75787d;
+  line-height: 40rpx;
+}

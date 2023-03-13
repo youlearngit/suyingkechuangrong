@@ -1,0 +1,40 @@
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+view.data-v-59c324a8 {
+  --bgcolor: #c95050;
+}
+.data-v-59c324a8 view.recommend_goods {
+  padding: 20rpx;
+}
+.home.data-v-59c324a8 {
+  background: #f8fbff;
+  height: 100000rpx;
+}
+.category.data-v-59c324a8 {
+  height: 60rpx;
+  line-height: 60rpx;
+}
+.navbarBody.data-v-59c324a8 {
+  background: #8f8f94;
+}
+.slot-wrap.data-v-59c324a8 {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  margin: 0 10rpx;
+  background: #fcfcfc;
+  border-radius: 20rpx;
+  color: #d0a1a1;
+  text-indent: 20rpx;
+}

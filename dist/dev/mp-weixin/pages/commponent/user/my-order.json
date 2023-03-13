@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "u-badge": "../../../node-modules/uview-plus/components/u-badge/u-badge",
+    "list-cell": "./list-cell"
+  }
+}

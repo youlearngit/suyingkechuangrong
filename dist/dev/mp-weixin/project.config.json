@@ -1,0 +1,63 @@
+{
+  "description": "项目配置文件。",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": false
+  },
+  "compileType": "miniprogram",
+  "libVersion": "",
+  "appid": "touristappid",
+  "projectname": "",
+  "condition": {
+    "search": {
+      "current": -1,
+      "list": []
+    },
+    "conversation": {
+      "current": -1,
+      "list": []
+    },
+    "game": {
+      "current": -1,
+      "list": []
+    },
+    "miniprogram": {
+      "current": 3,
+      "list": [
+        {
+          "name": "登录页面",
+          "id": 0,
+          "pathName": "pages/login/login"
+        },
+        {
+          "name": "我的",
+          "id": 1,
+          "pathName": "pages/tabbar/user/user"
+        },
+        {
+          "name": "分类",
+          "id": 2,
+          "pathName": "pages/tabbar/category/category"
+        },
+        {
+          "name": "商品列表",
+          "id": 3,
+          "pathName": "pages/home/classList"
+        },
+        {
+          "name": "商品详情页面",
+          "query": "goodsId=13",
+          "id": 4,
+          "pathName": "pagesMall/goods/goodsDetails"
+        },
+        {
+          "name": "个人中心",
+          "id": 5,
+          "pathName": "pagesMall/user/myInfo"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,127 @@
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+view.data-v-1ad077b4 {
+  --bgcolor: #c95050;
+}
+.myaddress.data-v-1ad077b4 {
+  padding: 10rpx 4% 140rpx;
+  margin-top: 10rpx;
+}
+.order_address.data-v-1ad077b4 {
+  height: 180rpx;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10rpx;
+  position: relative;
+  box-shadow: 0rpx 0rpx 10rpx #ddd;
+  margin-bottom: 20rpx;
+}
+.order_address image.data-v-1ad077b4 {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+.address_box.data-v-1ad077b4 {
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: 10;
+  box-sizing: border-box;
+  padding: 20rpx;
+  display: flex;
+  align-items: center;
+}
+.weizhi_icon text.data-v-1ad077b4 {
+  font-size: 40rpx;
+  margin-left: 10rpx;
+}
+.address_box .center.data-v-1ad077b4 {
+  margin-left: 20rpx;
+}
+.address_box .center .name.data-v-1ad077b4 {
+  height: 60rpx;
+  line-height: 60rpx;
+}
+.address_box .center .name .text1.data-v-1ad077b4 {
+  font-size: 26rpx;
+  font-weight: bold;
+  color: #333;
+  display: inline-block;
+  margin-right: 20rpx;
+}
+.phones.data-v-1ad077b4 {
+  font-size: 24rpx;
+  color: #999;
+  z-index: 0;
+}
+.address_box .address_name.data-v-1ad077b4 {
+  font-size: 26rpx;
+  font-weight: bold;
+  color: #333;
+}
+.noaddress.data-v-1ad077b4 {
+  margin-left: 40rpx;
+  font-weight: bold;
+  color: #333;
+  font-size: 26rpx;
+}
+.caozuo.data-v-1ad077b4 {
+  position: absolute;
+  right: 20rpx;
+  display: flex;
+  top: 20rpx;
+}
+.caozuo view.data-v-1ad077b4 {
+  font-size: 24rpx;
+  color: #666;
+  margin-left: 30rpx;
+}
+.caozuo view text.data-v-1ad077b4 {
+  font-size: 24rpx;
+}
+.moren.data-v-1ad077b4 {
+  position: absolute;
+  top: -10rpx;
+  left: -10rpx;
+}
+.moren text.data-v-1ad077b4 {
+  font-size: 88rpx;
+}
+.save.data-v-1ad077b4 {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 120rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.save view.data-v-1ad077b4 {
+  display: flex;
+}
+.save .btn.data-v-1ad077b4 {
+  box-shadow: 0rpx 5rpx 10rpx rgba(0, 0, 0, 0.4);
+  width: 70%;
+  height: 80rpx;
+  border-radius: 80rpx;
+  background-color: #f23a3a;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  font-size: 30rpx;
+}

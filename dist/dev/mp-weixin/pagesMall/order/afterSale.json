@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "售后申请",
+  "usingComponents": {
+    "u-field": "../../components/u-field/u-field"
+  }
+}

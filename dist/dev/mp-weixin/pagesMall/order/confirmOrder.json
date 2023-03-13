@@ -1,0 +1,10 @@
+{
+  "enablePullDownRefresh": false,
+  "navigationBarTitleText": "确认订单",
+  "usingComponents": {
+    "u-radio": "../../node-modules/uview-plus/components/u-radio/u-radio",
+    "u-radio-group": "../../node-modules/uview-plus/components/u-radio-group/u-radio-group",
+    "u-popup": "../../node-modules/uview-plus/components/u-popup/u-popup",
+    "coupon": "../../pages/commponent/public/coupon"
+  }
+}

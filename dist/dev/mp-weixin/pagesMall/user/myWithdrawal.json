@@ -1,0 +1,7 @@
+{
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "账户余额",
+  "usingComponents": {
+    "nodata": "../../pages/commponent/public/nodata"
+  }
+}

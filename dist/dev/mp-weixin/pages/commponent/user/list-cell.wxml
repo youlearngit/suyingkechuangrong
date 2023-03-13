@@ -1,0 +1,1 @@
+<view class="top_nav data-v-31091ac0" bindtap="{{d}}"><text class="{{['data-v-31091ac0', a]}}" style="{{b}}"></text><text class="name data-v-31091ac0"><slot></slot></text><image wx:if="{{c}}" src="/static/images/home/right.png" class="right_icon data-v-31091ac0"></image></view>
